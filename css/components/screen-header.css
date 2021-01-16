@@ -1,0 +1,19 @@
+.screen-header {
+  /*안의 소스들이 모두 나란히 나열되길 바라며...*/
+  display: flex;
+  /*양끝으로 쪼개져라*/
+  justify-content: space-between;
+  /*세로 중앙정렬*/
+  align-items: center;
+  padding: 25px;
+}
+
+.screen-header__title {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+/*스크린 헤더의 아이콘 클래스 -> span들은...*/
+.screen-header__icons span {
+  margin-left: 25px;
+}
